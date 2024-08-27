@@ -1,0 +1,66 @@
+.techskills{
+    width: 100%;
+    padding: 6rem 1 rem;
+    background: #000;
+}
+
+.skills-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+.skill{
+    border: 1px solid #eee;
+    color: #eee;
+    text-align: center;
+    padding: 1rem;
+}
+
+.skill:hover{
+    background-color: #232323be;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+.skill h3{
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+.skill p{
+    padding: 10px 0;
+}
+
+.bar{
+    border-bottom: 1px solid #eee;
+    width: 10%;
+    margin: 1.5rem auto;
+    display: block;
+
+}
+
+.btc{
+    font-size: 2rem;
+    font-weight: 600;
+    pad: 1rem 0;
+}
+
+.skill .btn{
+    display:block;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+@media screen and (max-width:740px) {
+    .skills-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+        
+    }
+   
+}
